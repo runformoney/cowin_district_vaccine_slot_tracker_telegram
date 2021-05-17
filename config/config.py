@@ -18,7 +18,7 @@ TELEGRAM_URL = TELEGRAM_ROOT + BOT_TOKEN + TELEGRAM_END_POINT
 
 """"
 The DIST_ID can be found inside utils/district_mapping.csv
-A district might have too many centers that are far away. So filtering wrt to pincodes would be better.
+A district might have too many centers that are far away. So filtering with respect to pincodes would be better.
 Provide a list of pincodes nearer to you in PIN_CODE_LIST. Get it from Cowin website.
 """
 DIST_ID = 457  # Cuttack
