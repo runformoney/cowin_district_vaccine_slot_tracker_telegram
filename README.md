@@ -5,7 +5,8 @@ CowinTracker is a bot created using Python leveraging open source Cowin APIs. It
 
 The bot checks availability of slots every 10 seconds and drops an alert. The alerts contain both 18+ and 45+ slots in government run UPHCs.
 
-![Screenshot](utils/files/Screenshot.jpg)
+
+<img src="utils/files/Screenshot.jpg" width="200">
 
 ## Tech
 
