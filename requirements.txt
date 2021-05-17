@@ -1,0 +1,5 @@
+pyttsx3
+beepy
+pypac
+pandas
+python-dotenv
