@@ -67,7 +67,7 @@ def run_process():
             if PIN_CODE_LIST:
                 df = df[df.pin_code.isin(PIN_CODE_LIST)]
             df = df[(df.available_capacity_dose1 > 0)]
-            df = df[df.fee_type == 'Free']
+            # df = df[df.fee_type == 'Free']
             if df.shape[0]:
                 print(df)
                 texts = get_texts(df)
