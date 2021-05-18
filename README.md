@@ -23,7 +23,7 @@ The file **_utils/district_mapping.csv_** has the district ids for all districts
 You need to have a Telegram account, a bot and a channel created. 
 Learn how to create bot from [here](https://core.telegram.org/bots#3-how-do-i-create-a-bot). Make sure you note the bot token and keep it hidden. Creating a channel in Telegram is super easy, but [here you go](https://olhardigital.com.br/en/2021/01/14/tira-duvidas/aprenda-a-criar-canais-no-telegram-pelo-celular/). Next up, you need to add the bot to the channel and make it an admin. Once that's done, we need to figure out the _chat id_ of the channel. For this first, drop a 'hi' into the channel and then run the below in browser:
 ```sh
-https://api.telegram.org/bot<BotToken>/getUpdates
+https://api.telegram.org/bot<YourBotToken>/getUpdates
 ```
 
 Note the chat id, and paste the chat id inside the ENV file in _config_ directory. Also paste your secret bot token in the ENV file.
@@ -35,6 +35,7 @@ $ cd cowin_slot_alerts
 $ python -m pip install virtualenv 
 $ virtualenv venv
 $ venv/Scripts/activate
+$ pip install -r requirements.txt
 $ python alert_slots_by_district.py
 ```
 
